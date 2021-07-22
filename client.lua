@@ -1,10 +1,12 @@
 Citizen.CreateThread(function()
 	while true do
-		SetDiscordAppId(YOUR DISCORD APP ID)
-		SetDiscordRichPresenceAsset('YOUR LOGO')
+       SetDiscordAppId(YOUR DISCORD APP ID)
+	SetDiscordRichPresenceAsset('YOUR LOGO')
         SetDiscordRichPresenceAssetText('YOUR TEXT')
         SetDiscordRichPresenceAssetSmall('YOUR LOGO')
         SetDiscordRichPresenceAssetSmallText('YOUR TEXT')
+	SetDiscordRichPresenceAction(0, "Discord!", "https://discord.gg/itlog")
+        SetDiscordRichPresenceAction(1, "You Want? Press me!", "https://google.com/")
 		Citizen.Wait(60000)
 	end
 end)
